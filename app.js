@@ -3,6 +3,8 @@ const client = new Discord.Client()
 
 const MODPACK_NOTIFICATION = "Link to latest Valheim modpack: " + process.env['MODPACK_URL'] + "\n\n Installation instructions: Delete existing BepinEx folder from Valheim root folder (usually: C:\\Program Files (x86)\\steam\\steamapps\\common\\Valheim). Extract zip into Valheim root folder overwriting everything else.";
 
+console.log('Initiating application')
+
 client.on("ready", () => {
   console.log('Logged in as ' + client.user.tag)
 })
