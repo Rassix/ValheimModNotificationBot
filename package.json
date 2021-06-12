@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Rassix/ValheimModNotificationBot/issues"
   },
-  "homepage": "https://github.com/Rassix/ValheimModNotificationBot#readme"
+  "homepage": "https://github.com/Rassix/ValheimModNotificationBot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
 }
